@@ -3,21 +3,22 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Braxton Toomer">
-	<meta name="description" content="Lucky Shrub Services Page">
+	<meta name="description" content="Lucky Shrub Home Page">
 	<meta name="robots" content="index, follow">
 	<title>Lucky Shrub</title>
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="styles1.css">
 </head>
 <body>
 	<header class="page-heading">
 		<img src="Asset 2@3x.png" alt="logo picture of shrub" id="header-logo">
-		<div class="page-heading-tagline">
-			<p class="page-heading-emoji">&#127795; Your One Stop for All Your ✂️🌿🌾 Needs</p>
-		</div>
 	</header>
-	<nav class="navbar">
+	<nav class="header-navbar">
 		<ul>
-			<li>
+			<li id="nav-home">
 				<a href="index1.html">Home</a>
 			</li>
 			<li>
@@ -30,17 +31,74 @@
 		</ul>
 	</nav>
 	<main>
-		<h1>Practice Bootstrap Cards for this Page</h1>
+		<div class="container">
+			<div class="card mb-3">
+  				<div class="row g-0">
+    				<div class="col-md-4">
+      					<img src="garden_design.jpeg" class="img-fluid rounded-start" alt="garden layout">
+    				</div>
+    				<div class="col-md-8">
+     	 				<div class="card-body">
+        					<h5 class="card-title">Garden Design</h5>
+        					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
+        					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+			<div class="card mb-3">
+  				<div class="row g-0">
+    				<div class="col-md-4 service-image-container">
+      					<img src="landscaping-modified.jpg" class="img-fluid rounded-start service-images" alt="image of landscaped yard">
+    				</div>
+    				<div class="col-md-8">
+     	 				<div class="card-body">
+        					<h5 class="card-title">Landscaping</h5>
+        					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
+        					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+			<div class="card mb-3">
+  				<div class="row g-0">
+    				<div class="col-md-4">
+      					<img src="nursery-modified.jpg" class="img-fluid rounded-start" alt="plants for sale in nursery">
+    				</div>
+    				<div class="col-md-8">
+     	 				<div class="card-body">
+        					<h5 class="card-title">Nursery</h5>
+        					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
+        					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+		</div>
 	</main>
 	<footer class="footer">
 		<img src="Asset 2@3x.png" alt="logo picture of shrub">
 		<div class="copyright">
-			<p>Hours of Operation:</p>
-			<p>Sunday - Saturday (8:00 A.M. to 6:00 P.M.)</p>
+			<p class="hours">Sunday - Saturday</p>
+			<p class="hours">8 A.M. to 6 P.M.</p>
 			<br/>
 			<address>Lucky Shrub, Inc.<br>123 Plant Ave.<br>Plantsburg, CA 91111
 			</address>
-			<tel>Tel. Number: 707-123-4567</tel><br><br>
+			<tel><span style="color: #6A9E9E;">Tel. Number: 707-123-4567</span></tel>
+			<br>
+			<br>
 			<p>&#169 2023 ~ All Rights Reserved</p>
 		</div>
 	</footer>

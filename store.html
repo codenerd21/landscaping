@@ -1,48 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Braxton Toomer">
-	<meta name="description" content="Lucky Shrub Store Page">
-	<meta name="robots" content="index, follow">
-	<title>Lucky Shrub</title>
-	<link rel="stylesheet" href="styles1.css">
-</head>
-<body>
-	<header class="page-heading">
-		<img src="Asset 2@3x.png" alt="logo picture of shrub" id="header-logo">
-		<div class="page-heading-tagline">
-			<p class="page-heading-emoji">&#127795; Your One Stop for All Your ✂️🌿🌾 Needs</p>
-		</div>
-	</header>
-	<nav class="navbar">
-		<ul>
-			<li>
-				<a href="index1.html">Home</a>
-			</li>
-			<li>
-				<a href="services.html">Services</a>
-			</li>
-			<li>
-				<a href="store.html">Store</a></li>
-			<li>
-				<a href="contact.html">Contact Us</a></li>
-		</ul>
-	</nav>
-	<main>
-		<h1>Practice CSS Grid for this Page</h1>
-	</main>
-	<footer class="footer">
-		<img src="Asset 2@3x.png" alt="logo picture of shrub">
-		<div class="copyright">
-			<p>Hours of Operation:</p>
-			<p>Sunday - Saturday (8:00 A.M. to 6:00 P.M.)</p>
-			<br/>
-			<address>Lucky Shrub, Inc.<br>123 Plant Ave.<br>Plantsburg, CA 91111
-			</address>
-			<tel>Tel. Number: 707-123-4567</tel><br><br>
-			<p>&#169 2023 ~ All Rights Reserved</p>
-		</div>
-	</footer>
-</body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Braxton Toomer">
+		<meta name="description" content="Lucky Shrub Home Page">
+		<meta name="robots" content="index, follow">
+		<title>Lucky Shrub</title>
+		<!-- Bootstrap CDN -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles1.css">
+	</head>
+	<body>
+		<header class="page-heading">
+			<img src="Asset 2@3x.png" alt="logo picture of shrub" id="header-logo">
+		</header>
+		<nav class="header-navbar">
+			<ul>
+				<li id="nav-home">
+					<a href="index1.html">Home</a>
+				</li>
+				<li>
+					<a href="services.html">Services</a>
+				</li>
+				<li>
+					<a href="store.html">Store</a></li>
+				<li>
+					<a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="container">
+				<div class="grid text-center image-containers">
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="g-col-6 g-col-md-4 image-content-container">
+						<div class="card image-content-card" style="width: 18rem;">
+							<img src="flowers.jpg" class="card-img-top" alt="sunflowers">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu.</p>
+								<p class="card-price">$39.99</p>
+								<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<img src="Asset 2@3x.png" alt="logo picture of shrub">
+			<div class="copyright">
+				<p class="hours">Sunday - Saturday</p>
+				<p class="hours">8 A.M. to 6 P.M.</p>
+				<br/>
+				<address>Lucky Shrub, Inc.<br>123 Plant Ave.<br>Plantsburg, CA 91111
+				</address>
+				<tel><span style="color: #6A9E9E;">Tel. Number: 707-123-4567</span></tel>
+				<br>
+				<br>
+				<p>&#169 2023 ~ All Rights Reserved</p>
+			</div>
+		</footer>
+	</body>
 </html>
+
+

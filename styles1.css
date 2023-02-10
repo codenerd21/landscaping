@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: antiquewhite;
+	background-color: #ffffff;
 }
 
 img {
@@ -20,43 +20,37 @@ img {
 	max-width: 100px;
 }
 
-.page-heading-tagline {
-	display: flex;
-	margin: 10px;
-	font-size: 1rem;
-	flex-flow: row wrap;
-	color: darkgreen;
-	font-weight: 800;
+.header-navbar {
+	background-color: #ffffff;	
 }
 
-.page-heading-emoji 
-
-.navbar {
-	background-color: rgb(113, 58, 3);
-}
-
-.navbar ul {
+.header-navbar ul {
 	display: flex;
 	flex-wrap: wrap; 
 	justify-content: center;
 	list-style: none;
 	font-size: 1.5rem;
 	text-align: center;
-	background-color: rgb(113, 58, 3);
-	color: white;
 }
 
-.navbar li {
+.header-navbar li {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-/* .hero	{  Uncomment to Use Flexbox
-	display: flex;
-	height: 400px;
-} */
+.header-navbar a {
+	color: #9CBBBF;
+}
+
+#nav-home a {
+	color: #6A9E9E;
+}
+
+.hero-container {
+	border-radius: 25px;
+}
 
 .hero {
 	background-image: url("promo-banner-image.jpg");
@@ -65,31 +59,45 @@ img {
 	background-position: center;
 	width: 100%;
 	height: 400px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	text-align: center;
+	margin: 40px;
+	color: #6A9E9E;
 }
 
 .landscape-content {
 	display: flex;
-	gap: 12px;
+	gap: 4px;
 }
 
 .landscape-articles	{
-	background-color: rgb(249, 210, 137);
+	background-color: #6A9E9E;
+	border-radius: 25px;
 }
 
 .landscape-articles h3 {
 	text-align: center;
-	color: brown;
-	padding: 10px;
+	color: #ffffff;
 	text-decoration: underline;
+	padding: 5px;
 }
 
 .landscape-article-header {
 	padding: 10px;
 }
 
+.header-content {
+	padding: 15px;
+	color: white;
+}
+
 .landscape-articles img {
-	height: 30vw;
+	height: 20vw;
 	width: 100%;
+	border-radius: 25px;
 }
 
 .footer {
@@ -106,25 +114,19 @@ img {
 .copyright {
 	align-self:center;
 	font-weight: 800;
-	color:darkgreen;
+	color: #9CBBBF;
 	flex-flow: row wrap;
+}
+
+.hours {
+	color: #6A9E9E;
 }
 
 /* CSS Interactivity with Pseudo-Classes */
 
-a:visited {
-	color:green;
-	font-weight: bold;
-}
-
 a:hover {
-	color:white;
+	color: #6A9E9E;
 }
-
-#header-logo:hover {
-	box-shadow: 5px 5px 55px darkgreen; 
-}
-
 
 /* Media Queries */
 
@@ -140,3 +142,45 @@ a:hover {
 		align-items: center;
 	}
 }
+
+.image-content-container {
+	display: grid;
+	justify-content: center;
+	text-align: left;
+}
+
+.card-body {
+	background-color: #6A9E9E;
+	height: auto;
+}
+
+.card-text {
+	color: #ffffff;
+}
+
+.card-price {
+	font-weight: bold;
+	color: #000000;
+}
+ 
+.btn-primary {
+	background-color: #ffffff;
+	color: #9CBBBF;
+}
+
+.map-container {
+	text-align: center;
+}
+
+.contact-info {
+	margin-left: 100px;
+}
+
+.contact-form {
+	margin-left: 100px;
+	border: 1px solid #6A9E9E;
+	padding: 15px;
+}
+
+
+

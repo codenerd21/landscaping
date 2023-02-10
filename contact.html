@@ -3,21 +3,23 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Braxton Toomer">
-	<meta name="description" content="Lucky Shrub Contact Us Page">
+	<meta name="description" content="Lucky Shrub Home Page">
 	<meta name="robots" content="index, follow">
 	<title>Lucky Shrub</title>
+	<link rel="stylesheet" href="styles1.css">
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="styles1.css">
 </head>
 <body>
 	<header class="page-heading">
 		<img src="Asset 2@3x.png" alt="logo picture of shrub" id="header-logo">
-		<div class="page-heading-tagline">
-			<p class="page-heading-emoji">&#127795; Your One Stop for All Your ✂️🌿🌾 Needs</p>
-		</div>
 	</header>
-	<nav class="navbar">
+	<nav class="header-navbar">
 		<ul>
-			<li>
+			<li id="nav-home">
 				<a href="index1.html">Home</a>
 			</li>
 			<li>
@@ -30,17 +32,42 @@
 		</ul>
 	</nav>
 	<main>
-		<h1>Practice Creating Address Card, imap, and form to submit reviews.</h1>
+		<h2 class="contact-heading">WE ARE HERE TO ASSIST YOU WITH ALL YOUR LANDSCAPE AND DESIGN NEEDS</h2>
+		<div class="map-container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.1706875724817!2d-75.38742072718543!3d40.04646362338036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c695204c5a3bed%3A0x5001c4bbb3c557c0!2s123%20Plant%20Ave%2C%20Wayne%2C%20PA%2019087!5e0!3m2!1sen!2sus!4v1675969672193!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<section class="contact-info">
+			<h5><strong>Call:  </strong>707-123-4567</h5>
+			<h5><strong>Email:  </strong>sales@luckyshrub.com</h5>
+			<h5><strong>Contact Form:</strong></h5>
+		</section>
+		<form class="contact-form">
+  			<label for="fname">First name:</label><br>
+  			<input type="text" id="fname" name="fname" size="50%">
+			<br>
+  			<label for="lname">Last name:</label><br>
+  			<input type="text" id="lname" name="lname" size="50%">
+			<br>
+			<label for="phone">Phone Number:</label><br>
+			<input type="tel" id="phone-num" name="phone">
+			<br>
+			<label for="comment">Please tell us how we can help you:</label><br>
+			<input type="textarea" id="comment-box" name="comment" maxlength="1500" size="100%" ><br>
+			<br>
+			<input type="button" onclick="alert('Your message has been submitted.')" value="Submit">
+		</form>
 	</main>
 	<footer class="footer">
 		<img src="Asset 2@3x.png" alt="logo picture of shrub">
 		<div class="copyright">
-			<p>Hours of Operation:</p>
-			<p>Sunday - Saturday (8:00 A.M. to 6:00 P.M.)</p>
+			<p class="hours">Sunday - Saturday</p>
+			<p class="hours">8 A.M. to 6 P.M.</p>
 			<br/>
 			<address>Lucky Shrub, Inc.<br>123 Plant Ave.<br>Plantsburg, CA 91111
 			</address>
-			<tel>Tel. Number: 707-123-4567</tel><br><br>
+			<tel><span style="color: #6A9E9E;">Tel. Number: 707-123-4567</span></tel>
+			<br>
+			<br>
 			<p>&#169 2023 ~ All Rights Reserved</p>
 		</div>
 	</footer>
