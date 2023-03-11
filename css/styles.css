@@ -1,0 +1,197 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+img {
+	width: 100%;
+}
+
+.page-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.page-heading img {
+	max-width: 100px;
+}
+
+.header-navbar {
+	background-color: #ffffff;	
+}
+
+.header-navbar ul {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+	list-style: none;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.header-navbar li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.header-navbar a {
+	color: #9CBBBF;
+}
+
+#nav-home a {
+	color: #6A9E9E;
+}
+
+.hero {
+	background-image: url("../images/promo-banner-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-text-container h1 {
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	margin: 40px;
+	color: #6A9E9E;
+}
+
+.landscape-content {
+	display: flex;
+	gap: 4px;
+	justify-content: center;
+}
+
+.landscape-articles	{
+	background-color: #6A9E9E;
+	border-radius: 25px;
+	max-width: 500px;
+}
+
+.landscape-articles h3 {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: underline;
+	padding: 5px;
+}
+
+.landscape-article-header {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-content {
+	padding: 15px;
+	color: white;
+}
+
+.landscape-articles img {
+	width: 95%;
+	border-radius: 25px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.footer img {
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	align-self:center;
+	font-weight: 800;
+	color: #9CBBBF;
+	flex-flow: row wrap;
+}
+
+.hours {
+	color: #6A9E9E;
+}
+
+/* CSS Interactivity with Pseudo-Classes */
+
+a:hover {
+	color: #6A9E9E;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+	.landscape-content {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.image-content-container {
+	display: grid;
+	justify-content: center;
+	text-align: left;
+}
+
+.card-body {
+	background-color: #6A9E9E;
+}
+
+.card-text {
+	color: #ffffff;
+}
+
+.card-price {
+	font-weight: bold;
+	color: #000000;
+}
+ 
+.btn-primary {
+	background-color: #ffffff;
+	color: #9CBBBF;
+}
+
+.map-container {
+	text-align: center;
+}
+
+.contact-info {
+	margin-left: 100px;
+}
+
+.contact-form {
+	margin-left: 100px;
+	border: 1px solid #6A9E9E;
+	padding: 15px;
+}
+
+.services-desc-container {
+	background-color: #6A9E9E;
+}
+
+
+
+

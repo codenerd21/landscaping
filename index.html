@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Braxton Toomer">
 	<meta name="description" content="Lucky Shrub Home Page">
 	<meta name="robots" content="index, follow">
 	<title>Lucky Shrub</title>
-	<link rel="stylesheet" href="styles.css">
+	<!-- Bootstrap CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 	<header class="page-heading">
-		<img class="company-logo" src="Asset 2@3x.png" alt="Picture of shrub">
-			<div class="tagline">
-				<p class="emoji">&#127795; Garden Design</p>
-				<p class="emoji"><span style="color:orange">&#9728;</span> Landscaping</p>
-				<p class="emoji">&#127794; Nursery</p>
-			</div>
+		<img src="./images/logo.png" alt="logo picture of shrub" id="header-logo">
 	</header>
-	<nav>
+	<nav class="header-navbar">
 		<ul>
-			<li>Home</li>
-			<li>Services</li>
-			<li>Store</li>
-			<li>Contact Us</li>
+			<li id="nav-home">
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="services.html">Services</a>
+			</li>
+			<li>
+				<a href="store.html">Store</a></li>
+			<li>
+				<a href="contact.html">Contact Us</a></li>
 		</ul>
 	</nav>
 	<main>
-		<section>
-			<article>
-				<img class="promo-banner" src="promo-banner-image.jpg" alt="landscaped backyard">
+		<div>
+			<section class="hero">
+				<div class="hero-text-container">
+					<h1>30% off this weekend</h1>
+					<!-- <h1>30% off this weekend</h1>
+					<h1>30% off this weekend</h1> -->
+				</div>
+			</section>
+		</div>
+		<h2>Learn More About What We Do</h2>
+		<section class="landscape-content">
+			<article class="landscape-articles">
+				<div class="landscape-article-header">
+					<h3>Garden Design</h3>
+					<p class="header-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
+					<img src="./images/garden_design_square.jpeg" alt="garden layout">
+				</div>
 			</article>
-		</section>
-		<section class="col-section">
-			<article class="article-columns">
-				<h3>Garden Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
-				<img class="col-img" src="garden_design.jpeg" alt="garden layout">
+			<article class="landscape-articles">
+				<div class="landscape-article-header">
+					<h3>Landscaping</h3>
+					<p class="header-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.
+					</p>
+					<img src="./images/landscaping-modified-square.jpg" alt="image of landscaped yard">
+				</div>
 			</article>
-			<article class="article-columns">
-				<h3>Landscaping</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
-				<img class="col-img" src="landscaping.jpg" alt="landscaped yard">
-			</article>
-			<article class="article-columns">
-				<h3>Nursery</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
-				<img class="col-img" src="nursery.jpg" alt="plants in nursery">
+			<article class="landscape-articles">
+				<div class="landscape-article-header">
+					<h3>Nursery</h3>
+					<p class="header-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed mauris libero. Morbi varius tellus mi, ac efficitur nibh mattis eu. Quisque elit neque, mattis placerat rhoncus nec, varius eu felis. Ut id ipsum eget ipsum bibendum elementum at eget ex. Vestibulum facilisis porta magna, ut tempus arcu condimentum eget. Nam consequat fermentum tincidunt. Curabitur a elit metus.</p>
+					<img src="./images/nursery-modified-square.jpg" alt="plants for sale in nursery">
+				</div>
 			</article>
 		</section>
 	</main>
-	<footer>
-		<div>
-			<img class="company-logo" src="Asset 2@3x.png" alt="Picture of shrub">
+	<footer class="footer">
+		<img src="./images/logo.png" alt="logo picture of shrub">
+		<div class="copyright">
+			<p class="hours">Sunday - Saturday</p>
+			<p class="hours">8 A.M. to 6 P.M.</p>
+			<br/>
+			<address>Lucky Shrub, Inc.<br>123 Plant Ave.<br>Plantsburg, CA 91111
+			</address>
+			<tel><span style="color: #6A9E9E;">Tel. Number: 707-123-4567</span></tel>
+			<br>
+			<br>
+			<p>&#169 2023 ~ All Rights Reserved</p>
 		</div>
-		<div id="copyright">&#169 2023 ~ All Rights Reserved</div>
 	</footer>
 </body>
 </html>
